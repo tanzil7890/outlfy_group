@@ -1,0 +1,5 @@
+# Outlfy Group
+
+- Outlfy Group provides its customers with various data processing and analysing solutions that are useful for examining all types of data to make reasonable decisions on various aspects of the business. As a result of our mutually beneficial cooperation, our clients will be able to look differently at what they do and how their company is developing. And what is even more important, they will receive premium quality data analysis with minimum effort and at a reasonable price.
+
+- We help founders talk to every user they have on their app. We create a ChatGPT-like AI Replica of Founders, that adapts their product knowledge to personally connect & chat 1-1 with all their users at scale, via WhatsApp. The AI Replica (we call it, outlfy) remembers every user it has interacted with and will reach out to them so personally, as the Founder themselves has come to help. This founder-user relationship, ensures better customer obsession, long-term user motivation, and business growth (a by-product).
