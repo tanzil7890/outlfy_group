@@ -26,7 +26,7 @@ export default function Features() {
       {/* Section background (needs .relative class on parent and next sibling elements)  */}
       {/* Imp part for design: [.] Below in <div> tag I can change the color of the background by changing bg-gray-100 to bg-black which will change the color into */}
       <div className="absolute inset-0 bg-black pointer-events-none mb-16" aria-hidden="true"></div>
-      <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
+      
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
         <div className="pt-12 md:pt-20">
@@ -34,7 +34,7 @@ export default function Features() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
             <h1 className="h2 mb-4 text-white">Explore the tools and solutions</h1>
-            <p className="text-xl text-gray-600">Description</p>
+            <p className="text-l text-gray-600">Our cross-functional team of data scientists, big data engineers, solution architects and consultants provide big data consulting and big data development services to help you leverage your data and the latest AI technologies for business value and get the most out of your investment.</p>
           </div>
 
           {/* Section content */}
@@ -45,7 +45,7 @@ export default function Features() {
               <div className="md:pr-4 lg:pr-12 xl:pr-16 mb-8">
                 <h3 className="h3 mb-3 text-white">Powerful suite of tools</h3>
                 {/* We at outlfy helps business from 30+ industries integrate, aggregate, and analyze various data types from multiple data sources to address their most deliberate needs at department and enterprise levels. */}
-                <p className="text-xl text-gray-600">Des</p>
+                <p className="text-xl text-gray-600">Tools for Data consulting and development for maximum business value.</p>
               </div>
               {/* Tabs buttons */}
               <div className="mb-8 md:mb-0" >

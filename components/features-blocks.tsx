@@ -1,6 +1,6 @@
 export default function FeaturesBlocks() {
   return (
-    <section className="relative">
+    <section className="relative" id="featuresblock">
 
       {/* Section background (needs .relative class on parent and next sibling elements) bg-gray-900 */}
       <div className="absolute inset-0 top-1/2 md:mt-24 lg:mt-0 bg-black pointer-events-none" aria-hidden="true"></div>
@@ -12,7 +12,7 @@ export default function FeaturesBlocks() {
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 mt-10 md:pb-20">
             <h2 className="h2 mb-4 text-white">How you can benefit from it?</h2>
-            <p className="text-l text-gray-600 ">Our cross-functional team of data scientists, big data engineers, solution architects and consultants provide big data consulting and big data development services to help you leverage your data and the latest AI technologies for business value and get the most out of your investment.</p>
+            <p className="text-l text-gray-600 ">Our comprehensive big data consulting services provide end-to-end support, enabling data-driven decision-making and empowering businesses to unlock their full potential.</p>
           </div>
 
           {/* Items */}
@@ -32,7 +32,9 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Big Data Consulting</h4>
-              <p className="text-gray-600 text-center">We review your business processes vs business goals set and offer the best way to digitize it. As a big data development service provider, we’ll make it data-driven and transparent in terms of decision-making. We’ll provide project assessment, design, implementation, testing, deployment, and support on-demand.</p>
+              {/* We review your business processes vs business goals set and offer the best way to digitize it. As a big data development service provider, we’ll make it data-driven and transparent in terms of decision-making. We’ll provide project assessment, design, implementation, testing, deployment, and support on-demand. */}
+              <p className="text-gray-600 text-center">
+"We assess your business processes and goals, offering digitization strategies. As a big data service provider, we ensure data-driven decision-making, offering end-to-end support for project assessment, design, implementation, testing, deployment, and on-demand support."</p>
             </div>
 
             {/* 2nd item */}
@@ -48,7 +50,8 @@ export default function FeaturesBlocks() {
                 </g>
               </svg>
               <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Data Infra & Engineering</h4>
-              <p className="text-gray-600 text-center">We’ll collect, clean and structure your data for analysis and visualisation. We’ll design a data pipeline with real-time data streaming, batch data streaming or lambda architecture, build data lakes and warehouses. </p>
+              {/* We’ll collect, clean and structure your data for analysis and visualisation. We’ll design a data pipeline with real-time data streaming, batch data streaming or lambda architecture, build data lakes and warehouses. */}
+              <p className="text-gray-600 text-center">"We collect, clean, and structure your data for analysis and visualization. Our services include designing data pipelines with real-time or batch data streaming, implementing lambda architecture, and building data lakes and warehouses." </p>
             </div>
 
             {/* 3rd item */}
@@ -81,8 +84,8 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Business Apps</h4>
+              <p className="text-gray-600 text-center">“On-Demand” Software Development Services That Help You Grow Faster, Reduce Costs, and Deliver High-Quality Results</p>
             </div>
 
             {/* 5th item */}
@@ -97,8 +100,9 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Advance Marketing solution</h4>
+              <p className="text-gray-600 text-center">"Data-driven marketing solution utilizing advanced analytics to drive targeted campaigns, optimize performance, and achieve measurable results."</p>
+          
             </div>
 
             {/* 6th item */}
@@ -112,8 +116,9 @@ export default function FeaturesBlocks() {
                   </g>
                 </g>
               </svg>
-              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Headless CMS</h4>
-              <p className="text-gray-600 text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">Custom Solutions</h4>
+              {/* We understand that every organization has unique data requirements. We work closely with you to understand your specific goals and challenges, tailoring our solutions to meet your individual needs. */}
+              <p className="text-gray-600 text-center">"Customized data-driven solutions tailored to your organization's goals and challenges, ensuring optimal alignment with your unique data requirements."</p>
             </div>
 
           </div>
