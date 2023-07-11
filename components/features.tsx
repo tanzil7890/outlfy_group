@@ -4,6 +4,9 @@ import { useState, useRef, useEffect } from 'react'
 import { Transition } from '@headlessui/react'
 import Image from 'next/image'
 import FeaturesBg from '@/public/images/features-bg.png'
+import DataAnalysisTools from '@/public/images/Other 13.png'
+import OutlfyBrainLab from '@/public/images/Other 18.png'
+import DevelopmentLab from '@/public/images/Other 04.png'
 import FeaturesElement from '@/public/images/features-element.png'
 
 export default function Features() {
@@ -21,15 +24,15 @@ export default function Features() {
   }, []) 
 
   return (
-    <section className="relative ">
+    <section className="relative  ">
 
       {/* Section background (needs .relative class on parent and next sibling elements)  */}
       {/* Imp part for design: [.] Below in <div> tag I can change the color of the background by changing bg-gray-100 to bg-black which will change the color into */}
-      <div className="absolute inset-0 bg-black pointer-events-none mb-16" aria-hidden="true"></div>
+      
       
 
       <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="pt-12 md:pt-20">
+        <div className="pt-5 md:pt-20">
 
           {/* Section header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-16">
@@ -117,11 +120,11 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '20%' }} />
+                      <Image className="md:max-w-none mx-auto rounded transform animate-float" src={DataAnalysisTools} width={500} height="462" alt="Features bg" />
+                     {/*  <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '20%' }} />
                       <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} />
                       <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '40%' }} />
-                      
+                       */}
                     </div>
                   </Transition>
                   {/* Item 2 */}
@@ -139,8 +142,8 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} />
+                      <Image className="md:max-w-none mx-auto rounded transform animate-float" src={OutlfyBrainLab} width={500} height="462" alt="Features bg" />
+                     {/*  <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
                   </Transition>
                   {/* Item 3 */}
@@ -158,8 +161,8 @@ export default function Features() {
                     unmount={false}                     
                   >
                     <div className="relative inline-flex flex-col">
-                      <Image className="md:max-w-none mx-auto rounded" src={FeaturesBg} width={500} height="462" alt="Features bg" />
-                      <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={FeaturesElement} width={500} height="44" alt="Element" style={{ top: '30%' }} />
+                      <Image className="md:max-w-none mx-auto rounded transform animate-float" src={DevelopmentLab} width={500} height="462" alt="Features bg" />
+                      {/* <Image className="md:max-w-none absolute w-full left-0 transform animate-float" src={DevelopmentLab} width={500} height="44" alt="Element" style={{ top: '30%' }} /> */}
                     </div>
                   </Transition>
                 </div>
